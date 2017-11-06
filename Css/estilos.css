@@ -1,5 +1,6 @@
 body{
   background-color: #02010a;
+  font-family: dancing-sript;
 }
 
 header{
@@ -7,13 +8,41 @@ header{
   border-radius: 10px 10px 0px 0px;
 }
 
-h1{
+header h1{
   text-shadow: 2px 2px #02010a;
   color: white;
+}
+
+#active {
+  text-decoration: none;
+}
+
+header ul{
+  list-style: none;
+  overflow: hidden;
+}
+
+li{
+  float: right;
+  margin: 0px 5px;
+}
+
+#principal{
+  background-color: #82c3a6;
 
 }
 
-#Inicio {
-  text-decoration: none;
+#imagenes{
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+  text-align: center;
+}
 
+#imagenes img{
+  border: solid 1px black;
+}
+
+footer{
+  color: white;
 }

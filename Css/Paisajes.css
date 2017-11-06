@@ -1,14 +1,32 @@
 body{
-  background-color: #5b7989;
+  background-color: #02010a;
+  font-family: dancing-sript;
 }
 
-h1{
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  width: 99%;
+  position: fixed;
+}
+
+header h1{
   text-shadow: 2px 2px #02010a;
   color: white;
-
+  margin: 1%;
+  padding: 20px;
 }
 
-#Paisajes {
+#active {
   text-decoration: none;
+}
 
+header ul{
+  list-style: none;
+  overflow: hidden;
+}
+
+li{
+  float: right;
+  margin: 0px 5px;
 }
