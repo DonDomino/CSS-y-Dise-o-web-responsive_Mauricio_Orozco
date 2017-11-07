@@ -1,3 +1,8 @@
+.Contenido{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 body{
   background-color: #02010a;
   font-family: "Dancing Script";
@@ -48,7 +53,7 @@ li a:link{
 #principal img{
   margin-top: 10px;
   margin-bottom: 5px;
-  filter: drop-shadow(2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px#02010a);
 }
 
 #imagenes{
@@ -60,17 +65,27 @@ li a:link{
 
 #imagenes img{
   border: solid 1px black;
+  width: 100%;
   height: 260px;
-  filter: drop-shadow(2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
 
 .paisaje img:hover{
+  transition: all 1s;
   transform: rotate(10deg);
-  filter: drop-shadow(2px 2px #82c3a6);
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-box-shadow: 2px 2px 2px #82c3a6;
+  -moz-box-shadow: 2px 2px 2px #82c3a6;
 }
 
 .retratos img:hover{
-  transform: translatey(-5px);
+  transition: all 1s;
+  transform: translate(20px,-5px);
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-box-shadow: 2px 2px 2px #82c3a6;
+  -moz-box-shadow: 2px 2px 2px #82c3a6;
 }
 
 footer{
@@ -83,6 +98,26 @@ footer{
 
 .C2 img{
   width: 25px;
+}
+
+.C2 a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.C2 a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.C3 a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.C3 a:visited{
+  text-decoration: none;
+  color: black;
 }
 
 #titulo{

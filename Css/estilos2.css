@@ -82,6 +82,26 @@ footer{
   width: 25px;
 }
 
+.C2 a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.C2 a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.C3 a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.C3 a:visited{
+  text-decoration: none;
+  color: black;
+}
+
 #titulo{
   font-size: 22px;
   font-weight: bolder;
