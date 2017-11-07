@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <title>Comenzando con la Fotografía</title>
   </head>
   <body>
@@ -11,21 +12,21 @@
   <h1>Comenzando con la Fotografía</h1>
   <nav>
     <ul>
+      <li><a id="active" href="index.html">Inicio</a></li>
       <li><a href="Html/Paisajes.html">Paisajes</a></li>
       <li><a href="Html/Retratos.html">Retratos</a></li>
-      <li><a id="active" href="index.html">Inicio</a></li>
     </ul>
   </nav>
 </header>
 <section id="principal">
-  <p><img src="Images/Portada.jpg" alt=""></p>
+  <img src="Images/Portada.jpg" alt="">
 </section>
 <section id="imagenes">
   <article class="paisaje">
     <figure>
-      <img src="Images/paisaje.jpg" alt="">
+    <a href="Html/Paisajes.html"><img src="Images/paisaje.jpg" alt=""></a>
   </figure>
-  <figcaption>Paisajes</figcaption>
+  <figcaption><a href="Html/Paisajes.html">Paisajes</a></figcaption>
   </article>
   <article class="retratos">
     <figure>
@@ -35,19 +36,27 @@
   </article>
 </section>
 <footer>
-<table>
-  <th>Contacto</th>
-  <th>Terminos</th>
-  <th>Redes Sociales</th>
-  <th>Derechos</th>
-</table>
-
-
-  <a href="mailto:info@fotografias.com?subject=feedback">info@fotografias.com</a>
-  +57 3505050550<br>
-  Calle 100 Carrera 100
-
-  
+<div class="C1">
+  <p>Contacto</p>
+  <p><a href="mailto:info@fotografias.com?subject=feedback">info@fotografias.com</a></p>
+  <p>+57 3505050550</p>
+  <p>Calle 100 Carrera 100</p>
+</div>
+<div class="C2">
+  <p>Redes Sociales</p>
+  <p>FB: ComenzandoFoto</p>
+  <p>TW: @Comenzandofoto</p>
+  <p>Instagram: Comenzandofoto</p>
+</div>
+<div class="C3">
+  <p>Terminos</p>
+  <p>Conoce nuestros términos y condiciones.</p>
+</div>
+<div class="C4">
+  <p>Derechos</p>
+  <p>Mauricio Orozco B.</p>
+  <p>Copyright 2017.</p>
+</div>
 </footer>
   </body>
 </html>

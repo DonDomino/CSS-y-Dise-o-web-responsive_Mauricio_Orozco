@@ -1,20 +1,19 @@
 body{
   background-color: #02010a;
-  font-family: dancing-sript;
+  font-family: "Dancing Script";
 }
 
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
-  width: 99%;
-  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header h1{
   text-shadow: 2px 2px #02010a;
   color: white;
-  margin: 1%;
-  padding: 20px;
 }
 
 #active {
@@ -24,9 +23,26 @@ header h1{
 header ul{
   list-style: none;
   overflow: hidden;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 li{
-  float: right;
-  margin: 0px 5px;
+  margin: 10px 10px 0px 10px;
+  display: inline;
+}
+
+li a:visited{
+  color: white;
+}
+
+li a:link{
+  color: white;
+}
+
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  justify-content: space-around;
 }
