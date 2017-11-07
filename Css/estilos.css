@@ -8,12 +8,33 @@ body{
   font-family: "Dancing Script";
 }
 
+@media (min-width: 900px) {
+  header{
+    display: flex;
+  }
+  footer{
+    display: flex;
+  }
+}
+
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
-  display: flex;
   justify-content: space-around;
   align-items: center;
+  animation: header 1s;
+}
+
+@-webkit-keyframes header{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
 }
 
 header h1{
@@ -51,9 +72,10 @@ li a:link{
 }
 
 #principal img{
+  width: 70%;
   margin-top: 10px;
   margin-bottom: 5px;
-  filter: drop-shadow(2px 2px 2px#02010a);
+  box-shadow: 2px 2px 2px #02010a;
 }
 
 #imagenes{
@@ -70,13 +92,25 @@ li a:link{
   filter: drop-shadow(2px 2px 2px #02010a);
 }
 
+figcaption{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+figcaption a:visited{
+  color: black;
+}
+
+figcaption a:link{
+  color: black;
+}
+
 .paisaje img:hover{
   transition: all 1s;
   transform: rotate(10deg);
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
-  -webkit-box-shadow: 2px 2px 2px #82c3a6;
-  -moz-box-shadow: 2px 2px 2px #82c3a6;
+  box-shadow: 2px 2px 2px #82c3a6;
 }
 
 .retratos img:hover{
@@ -84,14 +118,12 @@ li a:link{
   transform: translate(20px,-5px);
   -webkit-animation-direction: reverse;
   animation-direction: reverse;
-  -webkit-box-shadow: 2px 2px 2px #82c3a6;
-  -moz-box-shadow: 2px 2px 2px #82c3a6;
+  box-shadow: 2px 2px 2px #82c3a6;
 }
 
 footer{
   border-radius: 0px 0px 10px 10px;
   background-color: #C6d5c5;
-  display: flex;
   justify-content: space-around;
   font-size: 20px;
 }
