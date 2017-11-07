@@ -69,4 +69,14 @@ footer{
   background-color: #C6d5c5;
   display: flex;
   justify-content: space-around;
+  font-size: 20px;
+}
+
+.C2 img{
+  width: 25px;
+}
+
+#titulo{
+  font-size: 22px;
+  font-weight: bolder;
 }

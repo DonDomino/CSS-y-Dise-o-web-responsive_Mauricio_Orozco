@@ -40,9 +40,37 @@ li a:link{
   color: white;
 }
 
+section{
+  text-align: center;
+  background-color: #d5c75f;
+}
+
+section img{
+  width: 29%;
+  filter: drop-shadow(2px 2px #02010a);
+}
+
+.fila1 img{
+  padding: 40px 20px;
+}
+
+.fila2 img{
+  padding: 0px 20px 40px 20px;
+}
+
 footer{
   border-radius: 0px 0px 10px 10px;
   background-color: #C6d5c5;
   display: flex;
   justify-content: space-around;
+  font-size: 20px;
+}
+
+.C2 img{
+  width: 25px;
+}
+
+#titulo{
+  font-size: 22px;
+  font-weight: bolder;
 }
