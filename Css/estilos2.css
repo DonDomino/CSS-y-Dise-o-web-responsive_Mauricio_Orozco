@@ -58,6 +58,18 @@ section img{
   padding: 0px 20px 40px 20px;
 }
 
+#i1{
+  filter: blur(10px);
+}
+
+#i2, #i4, #i6{
+  filter: grayscale(100%);
+}
+
+#i3{
+  filter: sepia(90%);
+}
+
 footer{
   border-radius: 0px 0px 10px 10px;
   background-color: #C6d5c5;

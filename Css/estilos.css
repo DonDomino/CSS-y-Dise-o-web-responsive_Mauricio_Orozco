@@ -61,7 +61,16 @@ li a:link{
 #imagenes img{
   border: solid 1px black;
   height: 260px;
-  filter: drop-shadow(2px 2px  #02010a);
+  filter: drop-shadow(2px 2px #02010a);
+}
+
+.paisaje img:hover{
+  transform: rotate(10deg);
+  filter: drop-shadow(2px 2px #82c3a6);
+}
+
+.retratos img:hover{
+  transform: translatey(-5px);
 }
 
 footer{
